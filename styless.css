@@ -1,0 +1,23 @@
+/* Center the title */
+h2 {
+    text-align: center;
+}
+
+/* Style the columns */
+.col-sm {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the list items */
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+/* Hover effect for list items */
+.list-group-item:hover {
+    background-color: #e9ecef;
+}

@@ -1,0 +1,154 @@
+{
+    "openings": [
+        {
+            "name": "Ruy Lopez",
+            "moves": {
+                "white": [
+                    "e4",
+                    "Nf3",
+                    "Bb5"
+                ],
+                "black": [
+                    "e5",
+                    "Nc6",
+                    "a6"
+                ]
+            }
+        },
+        {
+            "name": "Sicilian Defense",
+            "moves": {
+                "white": [
+                    "e4",
+                    "Nf3",
+                    "d4"
+                ],
+                "black": [
+                    "c5",
+                    "Nc6",
+                    "d6"
+                ]
+            }
+        },
+        {
+            "name": "Italian Game",
+            "moves": {
+                "white": [
+                    "e4",
+                    "Nf3",
+                    "Bc4"
+                ],
+                "black": [
+                    "e5",
+                    "Nf6",
+                    "d6"
+                ]
+            }
+        },
+        {
+            "name": "French Defense",
+            "moves": {
+                "white": [
+                    "e4",
+                    "d4",
+                    "exd5"
+                ],
+                "black": [
+                    "e6",
+                    "d5",
+                    "c5"
+                ]
+            }
+        },
+        {
+            "name": "Caro-Kann Defense",
+            "moves": {
+                "white": [
+                    "e4",
+                    "d4",
+                    "d5"
+                ],
+                "black": [
+                    "c6",
+                    "d5",
+                    "Nc6"
+                ]
+            }
+        },
+        {
+            "name": "King's Indian Defense",
+            "moves": {
+                "white": [
+                    "d4",
+                    "c4",
+                    "Nf3"
+                ],
+                "black": [
+                    "Nf6",
+                    "g6",
+                    "Bg7"
+                ]
+            }
+        },
+        {
+            "name": "Queen's Gambit Declined",
+            "moves": {
+                "white": [
+                    "d4",
+                    "c4",
+                    "Nc3"
+                ],
+                "black": [
+                    "d5",
+                    "e6",
+                    "Nf6"
+                ]
+            }
+        },
+        {
+            "name": "Nimzo-Indian Defense",
+            "moves": {
+                "white": [
+                    "d4",
+                    "c4",
+                    "Nc3"
+                ],
+                "black": [
+                    "Nc6",
+                    "e6",
+                    "d5"
+                ]
+            }
+        },
+        {
+            "name": "Gruenfeld Defense",
+            "moves": {
+                "white": [
+                    "d4",
+                    "c4",
+                    "Nf3"
+                ],
+                "black": [
+                    "Nf6",
+                    "g6",
+                    "d5"
+                ]
+            }
+        },
+        {
+            "name": "English Opening",
+            "moves": {
+                "white": [
+                    "c4",
+                    "Nc3",
+                    "g3"
+                ],
+                "black": [
+                    "e5",
+                    "Nf6",
+                    "d6"
+                ]
+            }
+        }
+    ]
+}

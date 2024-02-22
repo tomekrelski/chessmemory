@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Openings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styless.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Learn Chess Openings</h1>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-auto">
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" id="openingDropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Choose Opening
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="openingDropdown" id="openingList">
+                                    <!-- Opening names will be added dynamically here -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-success mt-3" id="learnButton">Learn Opening</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 justify-content-center">
+            <div class="col-auto text-center">
+                <button class="btn btn-light text-dark" id="whiteMemoryTestButton">White Memory Test</button>
+            </div>
+            <div class="col-auto text-center">
+                <button class="btn btn-dark" id="blackMemoryTestButton">Black Memory Test</button>
+            </div>
+            <div class="col-auto text-center">
+                <button class="btn btn-secondary" id="bothMemoryTestButton">White & Black Memory Test</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Memorize Moves Help</h2>
+        <div class="row">
+            <div class="col-sm">
+                <h3 class="text-center">Numbers:</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">1 - Gun</li>
+                    <li class="list-group-item">2 - Shoe</li>
+                    <li class="list-group-item">3 - Tree</li>
+                    <li class="list-group-item">4 - Door</li>
+                    <li class="list-group-item">5 - Hive</li>
+                    <li class="list-group-item">6 - Sticks</li>
+                    <li class="list-group-item">7 - Heaven</li>
+                    <li class="list-group-item">8 - Gate</li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h3 class="text-center">Letters:</h3>
+                <ul class="list-group">
+                    <ul class="list-group">
+                        <li class="list-group-item">A - Ant</li>
+                        <li class="list-group-item">B - Bee</li>
+                        <li class="list-group-item">C - Cat</li>
+                        <li class="list-group-item">D - Dog</li>
+                        <li class="list-group-item">E - Elephant</li>
+                        <li class="list-group-item">F - Frog</li>
+                        <li class="list-group-item">G - Giraffe</li>
+                        <li class="list-group-item">H - Hippopotamus</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h3 class="text-center">Chess Pieces & Annotations:</h3>
+                <ul class="list-group">
+                    <ul class="list-group">
+                        <li class="list-group-item">K - King (Monarch)</li>
+                        <li class="list-group-item">Q - Queen (Sovereign)</li>
+                        <li class="list-group-item">R - Rook (Castle)</li>
+                        <li class="list-group-item">N - Knight (Horse)</li>
+                        <li class="list-group-item">B - Bishop (Cleric)</li>
+                        <li class="list-group-item">P - Pawn (Infantry)</li>
+                        <li class="list-group-item">O-O - Kingside Castling (Shelter)</li>
+                        <li class="list-group-item">O-O-O - Queenside Castling (Refuge)</li>
+                        <li class="list-group-item">+ - Check (Threat)</li>
+                        <li class="list-group-item"># - Checkmate (Victory)</li>
+                        <li class="list-group-item">= - Pawn Promotion (Upgrade)</li>
+                        <li class="list-group-item">x - Capture (Seize)</li>
+                    </ul>
+                </div>
+                    <!-- Add more list items for other chess pieces and annotations -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type="module" src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
+<!-- 
+Chess Openings -->
+<!-- https://www.ragchess.com/best-chess-openings/ -->
